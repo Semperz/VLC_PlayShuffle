@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 def parse_xspf(file):
+    assert file.endswith('.xspf') == True
     parsed_xspf = ET.parse(file)
     root_xspf = parsed_xspf.getroot()
     xspf_list = []
