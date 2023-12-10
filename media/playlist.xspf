@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Lista de reproducción</title>
+	<trackList>
+		<track>
+			<location>file:///D:/Media/_Till%20I%20Collapse%28MP3_320K%29.mp3</location>
+			<title>&#39;Till I Collapse</title>
+			<album>&#39;Till I Collapse</album>
+			<image>file:///C:/Users/serpr/AppData/Roaming/vlc/art/arturl/26144e452fa6a4b574079582b9668367/art.png</image>
+			<duration>297840</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/Media/Arctic%20Monkeys%20-%20Do%20I%20Wanna%20Know_%20%28Official%20Video%29%28MP3_320K%29.mp3</location>
+			<title>Arctic Monkeys - Do I Wanna Know? (Official Video)</title>
+			<album>Arctic Monkeys - Do I Wanna Know? (Official Video)</album>
+			<image>file:///C:/Users/serpr/AppData/Roaming/vlc/art/arturl/56816fcd418984c06a30afb42e2b611d/art.png</image>
+			<duration>265728</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/Media/Back%20In%20Black%28MP3_320K%29.mp3</location>
+			<title>Back In Black</title>
+			<album>Back In Black</album>
+			<image>file:///C:/Users/serpr/AppData/Roaming/vlc/art/arturl/6a8d36ae2a3cfbf6b55340f5583441b9/art.png</image>
+			<duration>255528</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/Media/Godzilla%20%28feat.%20Juice%20WRLD%29%20%5BOfficial%20Audio%5D%28MP3_160K%29_1.mp3</location>
+			<title>Godzilla (feat. Juice WRLD) [Official Audio]</title>
+			<album>Godzilla (feat. Juice WRLD) [Official Audio]</album>
+			<image>file:///C:/Users/serpr/AppData/Roaming/vlc/art/arturl/d66c3717cfa438940d12e47729ec3eb5/art.png</image>
+			<duration>210840</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/Media/Guns%20N_%20Roses%20-%20Sweet%20Child%20O_%20Mine%20%28HQ%29%28MP3_320K%29.mp3</location>
+			<title>Guns N&#39; Roses - Sweet Child O&#39; Mine (HQ)</title>
+			<album>Guns N&#39; Roses - Sweet Child O&#39; Mine (HQ)</album>
+			<image>file:///C:/Users/serpr/AppData/Roaming/vlc/art/arturl/1df2dfcaa9c79ede59ad6c592417507e/art.png</image>
+			<duration>356496</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/Media/White_Town_-_Your_Woman__The_White_Panda_Remix_____Bass_Boost_Music%28256k%29.mp3</location>
+			<duration>195912</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/Media/X%20Gon_%20Give%20It%20To%20Ya%28MP3_320K%29.mp3</location>
+			<title>X Gon&#39; Give It To Ya</title>
+			<album>X Gon&#39; Give It To Ya</album>
+			<image>file:///C:/Users/serpr/AppData/Roaming/vlc/art/arturl/8d9d581aa52b832352369a3a3887c731/art.png</image>
+			<duration>217632</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+	</extension>
+</playlist>
