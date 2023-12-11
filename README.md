@@ -80,14 +80,14 @@ A -- Subprocess /segunda pasada/ --> E(CMD)
 
 Aquí adjunto una prueba con los casos test pasados 
 
-[Imagen pytest](https://imgur.com/EBVAnCu)
+![pytest](images/pytest_foto.png)
 
 
 ## Coverage
  
  Además de los casos test, el reporte del **Coverage**
 
-[Imagen coverage](https://imgur.com/1vAQ741)
+![coverage](images/coverage_report.png)
 
 
 ## Conclusiones
