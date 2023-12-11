@@ -75,6 +75,7 @@ D(path_maker.py) -- Ruta hacia VLC con las canciones aleatorias --> A
 A -- Subprocess /segunda pasada/ --> E(CMD)
 ```
 
+*Este gráfico está creado gracias a una idea de mi compañero [Evan Silva](https://github.com/EvanSilva) y a la página de [Stackedit](https://stackedit.io/)*
 
 ## Casos test
 
