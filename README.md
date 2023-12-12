@@ -68,11 +68,10 @@ Los componentes que conforman la aplicación son:
 
 ```mermaid
 graph LR
-A((song_randomizer.py)) -- /Primera pasada/ --> B(extract_data_xml.py) 
-B -- Lista con rutas de las canciones parseadas --> C(randomize_list.py) 
-C -- Lista randomizada --> D(path_maker.py)
-D(path_maker.py) -- Ruta hacia VLC con las canciones aleatorias --> A 
-A -- Subprocess /segunda pasada/ --> E(CMD)
+A[extract_data_xml.py] -- Lista con rutas de las canciones parseadas --> B[randomize_list.py] 
+B -- Lista randomizada --> C[path_maker.py]
+C[path_maker.py] -- Ruta hacia VLC con las canciones aleatorias --> D 
+D{song_randomizer.py} -- Subprocess --> E((CMD))
 ```
 
 *Este gráfico está creado gracias a una idea de mi compañero [Evan Silva](https://github.com/EvanSilva) y a la página de [Stackedit](https://stackedit.io/)*
@@ -88,7 +87,7 @@ Aquí adjunto una prueba con los casos test pasados
  
  Además de los casos test, el reporte del **Coverage**
 
-![coverage](Images/coverage_report.png)
+![coverage](Images/coverage_report_v2.png)
 
 
 ## Conclusiones
