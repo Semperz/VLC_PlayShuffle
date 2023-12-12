@@ -23,6 +23,12 @@ Métete en el directorio del proyecto:
 cd VLC_PlayShuffle
 ```
 
+Crea tu entorno virtual y actívalo:
+```
+$ python -m venv venv
+$ .\venv\Scripts\activate
+```
+
 Asegúrate de tener instalado pip cuando instales Python con:
 ```
 pip --version
