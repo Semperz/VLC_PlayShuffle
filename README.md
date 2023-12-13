@@ -96,6 +96,12 @@ Aquí adjunto una prueba con los casos test pasados
 ![coverage](Images/coverage_report_v2.png)
 
 
+## Clockify
+
+Aquí dejo un enlace al reporte del tiempo (estimado) que me llevó el proyecto y la descripción de cada uno de sus días con [Clockify](https://clockify.me/es/):
+
+[Reporte del tiempo](Images/Clockify_report.pdf)
+
 ## Conclusiones
 
 Este ha sido un proyecto que en principio no vi con mucha complicación pero con el paso del tiempo al hacerlo vi que me equivocaba completamente. Si es cierto que la parte de código no tiene nada extremadamente difícil pero se me empezaron a acumular fallos que en principio no debieron dar. El programa es muy completo y abarca prácticamente todo lo que aprendimos este primer trimestre pero aun así hay otras cosas que tuve que sacar por mi cuenta
