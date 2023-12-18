@@ -23,6 +23,12 @@ Métete en el directorio del proyecto:
 cd VLC_PlayShuffle
 ```
 
+Crea tu entorno virtual y actívalo:
+```
+$ python -m venv venv
+$ .\venv\Scripts\activate
+```
+
 Asegúrate de tener instalado pip cuando instales Python con:
 ```
 pip --version
@@ -49,7 +55,7 @@ Se han utilizado dos ramas principales: `main` para la versión estable y `devel
 ### Actividades en cada rama
 
 -   `main`: Contiene el código estable y listo para su implementación.
--   `develop`: Incluye las características en desarrollo y se fusiona con `master` después de las pruebas.
+-   `develop`: Incluye las características en desarrollo y se fusiona con `main` después de las pruebas.
 
 
 
@@ -68,11 +74,10 @@ Los componentes que conforman la aplicación son:
 
 ```mermaid
 graph LR
-A((song_randomizer.py)) -- /Primera pasada/ --> B(extract_data_xml.py) 
-B -- Lista con rutas de las canciones parseadas --> C(randomize_list.py) 
-C -- Lista randomizada --> D(path_maker.py)
-D(path_maker.py) -- Ruta hacia VLC con las canciones aleatorias --> A 
-A -- Subprocess /segunda pasada/ --> E(CMD)
+A[extract_data_xml.py] -- Lista con rutas de las canciones parseadas --> B[randomize_list.py] 
+B -- Lista randomizada --> C[path_maker.py]
+C[path_maker.py] -- Ruta hacia VLC con las canciones aleatorias --> D 
+D{song_randomizer.py} -- Subprocess --> E((CMD))
 ```
 
 *Este gráfico está creado gracias a una idea de mi compañero [Evan Silva](https://github.com/EvanSilva) y a la página de [Stackedit](https://stackedit.io/)*
@@ -88,8 +93,14 @@ Aquí adjunto una prueba con los casos test pasados
  
  Además de los casos test, el reporte del **Coverage**
 
-![coverage](Images/coverage_report.png)
+![coverage](Images/coverage_report_v2.png)
 
+
+## Clockify
+
+Aquí dejo un enlace al reporte del tiempo (estimado) que me llevó el proyecto y la descripción de cada uno de sus días con [Clockify](https://clockify.me/es/):
+
+[Reporte del tiempo](Images/Clockify_report.pdf)
 
 ## Conclusiones
 
