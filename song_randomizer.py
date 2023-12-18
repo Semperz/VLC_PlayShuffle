@@ -10,7 +10,7 @@ if __name__ != '__main__':
 
 def song_randomizer(root):
     import subprocess
-    assert root.endswith('.xspf') == True
+    assert root.endswith('.xspf')
     assert isinstance(root,str)
     songs_path = parse_xspf(root)
     random_order_songs = randomize_xspf(songs_path)

@@ -1,6 +1,6 @@
 import platform
 def path_maker(song_paths):
-    assert isinstance(song_paths,list)
+    assert isinstance(song_paths, list)
     if platform.system() == 'Windows':
         vlc_path = [r'C:\Program Files\VideoLAN\VLC\VLC.exe']  #Windows
     elif platform.system() == 'Darwin':
