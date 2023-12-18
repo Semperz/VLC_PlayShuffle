@@ -55,7 +55,7 @@ Se han utilizado dos ramas principales: `main` para la versión estable y `devel
 ### Actividades en cada rama
 
 -   `main`: Contiene el código estable y listo para su implementación.
--   `develop`: Incluye las características en desarrollo y se fusiona con `master` después de las pruebas.
+-   `develop`: Incluye las características en desarrollo y se fusiona con `main` después de las pruebas.
 
 
 
